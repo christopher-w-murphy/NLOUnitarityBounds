@@ -9,7 +9,7 @@
 (*Feb 2017*)
 (**)
 (*This package implements the algorithm for finding the (approximate) NLO unitarity bounds for the quartic couplings in a general renormalizable theory. It*)
-(*was made using Mathematica x11.0.1.0.*)
+(*was made using Mathematica x11.0.1.0. Please cite arXiv:1702.08511 if you use this package.*)
 (**)
 (*Examples and some documentation of the algorithm are shown *)
 (*in the supplementary file NLOUnitarityBounds-example.nb.*)
@@ -72,11 +72,15 @@ NLOUnitarityBounds[partialwavematrix_,quarticcouplings_,betafunctions_]:=
 
 
 
+
+
 (* ::Subsection:: *)
 (*Module:*)
 
 
 Module[{evals0,evecL,evecs0,betareps,i1,evals\[Sigma],i2,pwmbeta,evals\[Beta],i3,output,i4},
+
+
 
 
 
