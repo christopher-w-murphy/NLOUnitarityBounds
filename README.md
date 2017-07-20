@@ -8,8 +8,7 @@ was made using Mathematica x11.0.1.0. Please cite arXiv:1702.08511 if you use th
 Examples and some documentation of the algorithm are shown 
 in the supplementary file NLOUnitarityBounds-example.nb.
 
-This is the 1st attempt to implement this algorithm in a Mathematica package; no doubt it could be done better. Please send comments 
-and suggestions to the email address below.
+Please send comments and suggestions to the email address below. In addition, please contact the author if you would like an example notebook containing the 2HDM with its most general scalar potential.
 
 Copyright 2017
 Chris Murphy		cmurphy at quark dot phys dot bnl dot gov
