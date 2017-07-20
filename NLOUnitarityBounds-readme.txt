@@ -1,6 +1,6 @@
 ----------------
-NLOUnitarityBounds v0.1
-Feb 2017
+NLOUnitarityBounds v0.2
+July 2017
 
 This package implements the algorithm for finding the (approximate) NLO unitarity bounds for the quartic couplings in a general renormalizable theory. It
 was made using Mathematica x11.0.1.0. Please cite arXiv:1702.08511 if you use this package.
@@ -17,7 +17,12 @@ Chris Murphy		cmurphy at quark dot phys dot bnl dot gov
 -------
 History
 
+v0.1
 This is the first attempt at making a Mathematica package to implement the algorithm for finding the (approximate) NLO unitarity bounds for the quartic couplings in a general renormalizable theory
+
+v0.2
+A couple of minor bugs have been fixed. A module has been added that attempts to find the NLO perturbativity bounds analytically.
+
 -------
 License
 
