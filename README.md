@@ -20,7 +20,7 @@ v0.1
 This is the first attempt at making a Mathematica package to implement the algorithm for finding the (approximate) NLO unitarity bounds for the quartic couplings in a general renormalizable theory
 
 v0.2
-A couple of minor bugs have been fixed. A module has been added that attempts to find the NLO perturbativity bounds analytically.
+A couple of minor improvements have been made. 
 
 -------
 License
