@@ -57,7 +57,7 @@ BeginPackage["NLOUnitarityBounds`"];
 NLOUnitarityBounds::usage =
 "NLOUnitarityBounds[ <partialwavematrix> ,<betapartialwavematrix> , <quarticcouplings> <betafunctions> ]:
 Returns a list whose entries are {\!\(\*TemplateBox[{\"a\",\"0\",RowBox[{\"(\", \"0\", \")\"}]},\n\"Subsuperscript\"]\), \!\(\*TemplateBox[{\"a\",\"0\",RowBox[{\"(\", \"1\", \")\"}]},\n\"Subsuperscript\"]\)}, the LO and (approximate) NLO contributions to each eigenvalue;\[IndentingNewLine]<partialwavematrix> the tree level partial wave matrix, 1x1 'matrices' should still be entered as {{x}} rather than x;
-<betapartialwavematrix> the beta function contribution to the partial wave matrix;\[IndentingNewLine]<quarticcouplings> a list of each quartic coupling appear in <partialwavematrix>, complex conjugates must also be listed (real and imaginary parts would work as well);\[IndentingNewLine]<betafunctions> a list that gives the beta function for each quartic coupling in the previous list. S;
+<betapartialwavematrix> the beta function contribution to the partial wave matrix;
 ";
 
 
@@ -68,7 +68,9 @@ Begin["`Private`"]
 (*NLOUnitarityBounds function*)
 
 
-NLOUnitarityBounds[partialwavematrix_,betapartialwavematrix_,quarticcouplings_,betafunctions_]:=
+NLOUnitarityBounds[partialwavematrix_,betapartialwavematrix_]:=
+
+
 
 
 
@@ -78,6 +80,8 @@ NLOUnitarityBounds[partialwavematrix_,betapartialwavematrix_,quarticcouplings_,b
 
 
 Module[{evals0,evecs0,evals\[Sigma],evals\[Beta],it},
+
+
 
 
 
