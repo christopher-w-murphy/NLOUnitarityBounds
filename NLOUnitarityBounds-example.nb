@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29546,        860]
-NotebookOptionsPosition[     27406,        794]
-NotebookOutlinePosition[     27923,        816]
-CellTagsIndexPosition[     27837,        811]
+NotebookDataLength[     28615,        844]
+NotebookOptionsPosition[     26478,        778]
+NotebookOutlinePosition[     26994,        800]
+CellTagsIndexPosition[     26908,        795]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -49,14 +49,9 @@ list whose entries are \
 contributions to each eigenvalue;\[IndentingNewLine]<partialwavematrix> the \
 tree level partial wave matrix, 1x1 'matrices' should still be entered as \
 {{x}} rather than x;\\n<betapartialwavematrix> the beta function contribution \
-to the partial wave matrix;\[IndentingNewLine]<quarticcouplings> a list of \
-each quartic coupling appear in <partialwavematrix>, complex conjugates must \
-also be listed (real and imaginary parts would work as well);\
-\[IndentingNewLine]<betafunctions> a list that gives the beta function for \
-each quartic coupling in the previous list. S;\\n\"\>", "MSG"]], "Print", \
-"PrintUsage",
- CellChangeTimes->{3.709568841198991*^9},
- CellTags->"Info33709554441-3273606"]
+to the partial wave matrix;\\n\"\>", "MSG"]], "Print", "PrintUsage",
+ CellChangeTimes->{3.709588628347322*^9},
+ CellTags->"Info33709574228-1107620"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -363,10 +358,6 @@ Cell[BoxData[
      RowBox[{"My1\[Sigma]1", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
      RowBox[{"\[Beta]My1\[Sigma]1", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"quarticcouplings", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"betas", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}]}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{"NLOUnitarityBounds", "[", 
@@ -374,10 +365,6 @@ Cell[BoxData[
      RowBox[{"My1\[Sigma]0", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
      RowBox[{"\[Beta]My1\[Sigma]0", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"quarticcouplings", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"betas", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}]}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{"NLOUnitarityBounds", "[", 
@@ -385,10 +372,6 @@ Cell[BoxData[
      RowBox[{"My0\[Sigma]1", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
      RowBox[{"\[Beta]My0\[Sigma]1", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"quarticcouplings", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"betas", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}]}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{"NLOUnitarityBounds", "[", 
@@ -396,18 +379,15 @@ Cell[BoxData[
      RowBox[{"My0\[Sigma]0", "[", 
       RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
      RowBox[{"\[Beta]My0\[Sigma]0", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"quarticcouplings", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}], ",", 
-     RowBox[{"betas", "[", 
-      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}]}], "]"}]}]}]], "Input",
+      RowBox[{"\[Lambda]1", ",", "\[Lambda]3"}], "]"}]}], "]"}]}]}]], "Input",\
+
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
  CellChangeTimes->{{3.709563263669249*^9, 3.709563283398171*^9}, {
    3.709565891843862*^9, 3.7095659692093077`*^9}, {3.709566248415388*^9, 
    3.709566341856106*^9}, {3.709566871130117*^9, 3.709566877416791*^9}, {
    3.7095676181407013`*^9, 3.709567663773099*^9}, 3.709568919162921*^9, {
    3.7095702139738417`*^9, 3.709570276054614*^9}, {3.709571014578842*^9, 
-   3.7095710587623243`*^9}}],
+   3.7095710587623243`*^9}, {3.7095886528257933`*^9, 3.709588661844594*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -482,7 +462,8 @@ Cell[BoxData[
        RowBox[{"256", " ", 
         SuperscriptBox["\[Pi]", "3"]}]]}]}], "}"}]}], "}"}]], "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
- CellChangeTimes->{{3.709570276417605*^9, 3.709570321448783*^9}}],
+ CellChangeTimes->{{3.709570276417605*^9, 3.709570321448783*^9}, 
+   3.70958866262714*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -516,7 +497,8 @@ Cell[BoxData[
       RowBox[{"256", " ", 
        SuperscriptBox["\[Pi]", "3"]}]]}]}], "}"}], "}"}]], "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
- CellChangeTimes->{{3.709570276417605*^9, 3.709570321448903*^9}}],
+ CellChangeTimes->{{3.709570276417605*^9, 3.709570321448783*^9}, 
+   3.709588662636333*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -639,7 +621,8 @@ Cell[BoxData[
        RowBox[{"128", " ", 
         SuperscriptBox["\[Pi]", "3"]}]]}]}], "}"}]}], "}"}]], "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
- CellChangeTimes->{{3.709570276417605*^9, 3.70957032144901*^9}}],
+ CellChangeTimes->{{3.709570276417605*^9, 3.709570321448783*^9}, 
+   3.70958866264067*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -787,7 +770,8 @@ Cell[BoxData[
        RowBox[{"64", " ", 
         SuperscriptBox["\[Pi]", "3"]}]]}]}], "}"}]}], "}"}]], "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
- CellChangeTimes->{{3.709570276417605*^9, 3.709570321449107*^9}}]
+ CellChangeTimes->{{3.709570276417605*^9, 3.709570321448783*^9}, 
+   3.709588662645499*^9}]
 }, Closed]]
 }, Closed]]
 }, Open  ]]
@@ -803,14 +787,14 @@ StyleDefinitions->"Default.nb"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Info33709554441-3273606"->{
-  Cell[1122, 40, 1137, 18, 168, "Print",
-   CellTags->"Info33709554441-3273606"]}
+ "Info33709574228-1107620"->{
+  Cell[1122, 40, 820, 13, 115, "Print",
+   CellTags->"Info33709574228-1107620"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info33709554441-3273606", 27731, 805}
+ {"Info33709574228-1107620", 26803, 789}
  }
 *)
 (*NotebookFileOutline
@@ -821,43 +805,43 @@ Cell[692, 25, 165, 3, 32, "Input"],
 Cell[860, 30, 105, 2, 32, "Input"],
 Cell[CellGroupData[{
 Cell[990, 36, 129, 2, 32, "Input"],
-Cell[1122, 40, 1137, 18, 168, "Print",
- CellTags->"Info33709554441-3273606"]
+Cell[1122, 40, 820, 13, 115, "Print",
+ CellTags->"Info33709574228-1107620"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2296, 63, 282, 4, 64, "Section"],
+Cell[1979, 58, 282, 4, 64, "Section"],
 Cell[CellGroupData[{
-Cell[2603, 71, 439, 6, 44, "Subsection",
+Cell[2286, 66, 439, 6, 44, "Subsection",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[3045, 79, 5199, 149, 377, "Input",
+Cell[2728, 74, 5199, 149, 377, "Input",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8281, 233, 283, 4, 36, "Subsection",
+Cell[7964, 228, 283, 4, 36, "Subsection",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[8567, 239, 1347, 37, 72, "Input",
+Cell[8250, 234, 1347, 37, 72, "Input",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[9951, 281, 323, 4, 36, "Subsection",
+Cell[9634, 276, 323, 4, 36, "Subsection",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[10277, 287, 208, 3, 35, "Subsubsection",
+Cell[9960, 282, 208, 3, 35, "Subsubsection",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[10488, 292, 1894, 53, 166, "Input",
+Cell[10171, 287, 1894, 53, 166, "Input",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[12419, 350, 366, 5, 36, "Subsection",
+Cell[12102, 345, 366, 5, 36, "Subsection",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[12788, 357, 2390, 52, 201, "Input",
+Cell[12471, 352, 1676, 37, 117, "Input",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[15181, 411, 2343, 73, 100, "Output",
+Cell[14150, 391, 2368, 74, 100, "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[17527, 486, 1100, 32, 51, "Output",
+Cell[16521, 467, 1126, 33, 51, "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[18630, 520, 3997, 121, 146, "Output",
+Cell[17650, 502, 4023, 122, 146, "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[22630, 643, 4736, 146, 192, "Output",
+Cell[21676, 626, 4762, 147, 192, "Output",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
 }, Closed]]
 }, Closed]]
